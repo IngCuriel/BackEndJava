@@ -1,6 +1,8 @@
 # JAVA SE
 Concepto y ejemplos de JAVA SE
 
+![img](https://github.com/IngCuriel/javaSE/blob/main/assets/img/java-logo.jpg)
+
 ## Contenido
 
 - [Clases Abstractas](#clases-abstractas)
