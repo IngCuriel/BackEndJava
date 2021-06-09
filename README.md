@@ -64,4 +64,13 @@ Se agregar los modificadores de acceso default en java 8 y private en java 8 con
  }
 
 ```
-
+## Interfaces funcionales
+ - Tienen un solo método SAM(Single Abstract Method) y este método en particular tiene que ser abstracto.
+ - Tiene la anotacion `@FunctionalInterfaces` 
+ ```
+  @FunctionalInterface
+  public interface Greeting {
+     public void perform();
+  }
+  
+ ```
