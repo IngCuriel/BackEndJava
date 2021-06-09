@@ -33,3 +33,28 @@ La clase abstracta solucionan las siguentes restricciones de las interfaces y He
 ### Herencia
   - Las clases podrían **No** necesitar heredar la implementación de un método.
   - A veces no necesitamos crear instancias de una clase padre, por que es muy genérica.
+
+## Interfaces 
+
+- Métodos Abstractos sin implementación.
+- Campos constantes.
+- Tipo de referencia Polimorfimos similar a **Clases Abstactas**
+
+### Interfaces apartir de Java 8 y 9
+Se agregar los modificadores de acceso default en java 8 y private en java 8 con estos modificadores los metodos y apuede tener implemetación.
+
+```JAVA
+   public interfaces MyInterface {
+     default void defaultMethod() {
+       privateMethod("Hello from the default method!")
+     }
+     
+     private void privateMethod(final String string) {
+      System.out.println(string);
+     }
+     
+     void normalMethod();   
+ }
+
+```
+
